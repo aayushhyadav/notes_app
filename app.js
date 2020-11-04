@@ -7,7 +7,7 @@ yargs.version('1.1.0')
 
 //create add command
 yargs.command({
-    command :'Add',
+    command :'add',
     describe : 'Add a new note',
     builder : {
         title : {
